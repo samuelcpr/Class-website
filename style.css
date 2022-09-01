@@ -3,7 +3,7 @@
     border: 0;
 }
 body {
-    background-color:#fff;
+    background-color: #E5E6F3;
 }
 
 .header {
@@ -63,15 +63,16 @@ body {
 .banner img {
     height: 100%;
     width: 80%;
+    max-width: 100%;
+    max-height: 100%;
+    min-height: 100px;
+    min-width: 100px;
 }
 .containerImage1{
     margin-top: 10rem;
     display: flex;
     justify-content: space-around;
     
-}
-.message{
-    border: solid 1px #000;
 }
 .containerImage2{
     margin-top: 10rem;
@@ -80,10 +81,8 @@ body {
 }
 .containerImage3{
     margin-top: 10rem;
-    background-color: #000;
     display: flex;
     justify-content: space-around;
-    padding: 5rem 0;
 }
 
 #post1{
@@ -109,6 +108,20 @@ width: 30%;
 height: 5rem;
 padding: 5rem;
 width: 30%;
+
+}
+.midiatext3 script {
+    height: 5rem;
+    padding: 5rem;
+    width: 50%;
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    z-index: -2;
+    }
+.midiatext3 p {
+    margin-bottom: 6rem;
+   
 }
 
 .footer {
@@ -116,6 +129,7 @@ width: 30%;
     display: flex;
     justify-content: space-around;
     background-color: #000;
+    
 }
 
 .textInformation {
@@ -143,4 +157,9 @@ width: 30%;
 .footertext h1 {
     color: #fff;
     font-size: 15px;
+}
+
+.footerlogo img{
+    width: 37rem;
+    margin: 0 0 0 0;
 }
