@@ -2,8 +2,9 @@
     margin: 0;
     border: 0;
 }
+
 body {
-    background-color: #E5E6F3;
+    background-color: #fff;
 }
 
 .header {
@@ -12,11 +13,13 @@ body {
     justify-content: space-around;
     background-color: black;
 }
+
 #logo {
     height: 5rem;
     padding: 1rem 0;
-   
+
 }
+
 .menu {
     height: 5rem;
     width: 50%;
@@ -26,6 +29,7 @@ body {
     align-items: center;
 
 }
+
 .itens {
     margin: 0 2rem;
     font-size: 1.5rem;
@@ -41,7 +45,7 @@ body {
 
 #butom {
     height: 2rem;
-    padding: 0.7rem 0.5rem 0 0.5rem; 
+    padding: 0.7rem 0.5rem 0 0.5rem;
     align-items: center;
     color: #fff;
     background-color: blue;
@@ -49,17 +53,20 @@ body {
     border-radius: 5px;
     text-decoration: none;
 }
-#butom:hover{
+
+#butom:hover {
     color: #101220;
     background-color: rgb(30, 30, 54);
     color: #fff;
     border: solid #fff 1px;
 }
+
 .banner {
     height: 45rem;
     width: 100%;
     background-color: #101220;
 }
+
 .banner img {
     height: 100%;
     width: 80%;
@@ -68,83 +75,112 @@ body {
     min-height: 100px;
     min-width: 100px;
 }
-.containerImage1{
+
+.containerImage1 {
     margin-top: 10rem;
     display: flex;
     justify-content: space-around;
+
+}
+
+.containerImage2 {
+    margin-top: 10rem;
+    display: flex;
+    justify-content: space-around;
+}
+
+.containerImage3 {
+    margin-top: 10rem;
+    display: flex;
+    justify-content: space-around;
+}
+
+#post1 {
+    height: 35rem;
+    transition: transform .2s;
+    border: solid 2px ;
+}
+#post1:hover {
+    transform: scale(1.2);
     
 }
-.containerImage2{
-    margin-top: 10rem;
-    display: flex;
-    justify-content: space-around;
-}
-.containerImage3{
-    margin-top: 10rem;
-    display: flex;
-    justify-content: space-around;
-}
 
-#post1{
-height: 35rem;
-}
-
-#post2{
+#post2 {
     height: 35rem;
 }
-#post3{
+
+#post3 {
     height: 35rem;
     width: 36%;
+    margin: 0 0 2rem 0;
 }
+
 .midiatext1 {
-padding: 5rem;
-width: 30%;
+    padding: 5rem;
+    width: 30%;
 }
+
 .midiatext2 {
     padding: 5rem;
     width: 30%;
 }
-.midiatext3 {
-height: 5rem;
-padding: 5rem;
-width: 30%;
 
-}
-.midiatext3 script {
+.midiatext3 {
     height: 5rem;
-    padding: 5rem;
-    width: 50%;
-    position: absolute;
-    left: 0px;
-    top: 0px;
-    z-index: -2;
-    }
-.midiatext3 p {
-    margin-bottom: 6rem;
-   
+    padding: 5rem 5rem 2rem 5rem;
+    width: 30%;
+
 }
 
 .footer {
-    margin-top: 8rem;
     display: flex;
     justify-content: space-around;
     background-color: #000;
-    
+
+}
+
+.footer:hover {
+    transform: scale(1);
 }
 
 .textInformation {
-    margin-top: 2rem;
-    height: 100px;
-    width: 100px;
-   
+    
+
+    padding: 0 10rem 0 0;
+}
+
+.textInformation a {
+
+    display: grid;
+    text-decoration: none;
+    grid-column: auto;
+    grid-template-rows: 1rem 1rem 1fr;
+    font-size: 20px;
+    color: #fff;
+
 }
 
 .textInformation2 {
-    margin-top: 2rem;
-    height: 100px;
-    width: 100px; 
-    position: static;   
+    padding: 0 8rem 0 2rem;
 }
+
+.textInformation2 a {
+
+    display: grid;
+    text-decoration: none;
+    grid-column: auto;
+    grid-template-rows: 1rem 1rem 1fr;
+    font-size: 20px;
+    padding: 0 8rem 0 1rem;
+    color: #fff;
+
+}
+
+.texinfo1 {
+    margin-top: 5rem;
+
+}
+
 .footertext {
     padding: 2rem;
     display: flex;
@@ -154,12 +190,15 @@ width: 30%;
     border-top: solid 1px #fff;
     border-bottom: solid 1px #fff;
 }
+
 .footertext h1 {
     color: #fff;
     font-size: 15px;
 }
 
-.footerlogo img{
-    width: 37rem;
-    margin: 0 0 0 0;
+.footerlogo img {
+    height: 20rem;
+    border-left: #000 solid 13rem;
+    border-right: #000 solid 13rem;
+    border-top: #000 solid 2rem;
 }
