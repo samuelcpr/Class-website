@@ -1,0 +1,146 @@
+* {
+    margin: 0;
+    border: 0;
+}
+body {
+    background-color:#fff;
+}
+
+.header {
+    height: 7rem;
+    display: flex;
+    justify-content: space-around;
+    background-color: black;
+}
+#logo {
+    height: 5rem;
+    padding: 1rem 0;
+   
+}
+.menu {
+    height: 5rem;
+    width: 50%;
+    padding: 0.5rem 0 0 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+.itens {
+    margin: 0 2rem;
+    font-size: 1.5rem;
+    color: #fff;
+    text-decoration: none;
+}
+
+.itens:hover {
+    border-bottom: solid 1px blue;
+    transition: 1s;
+}
+
+
+#butom {
+    height: 2rem;
+    padding: 0.7rem 0.5rem 0 0.5rem; 
+    align-items: center;
+    color: #fff;
+    background-color: blue;
+    border: solid #fff 1px;
+    border-radius: 5px;
+    text-decoration: none;
+}
+#butom:hover{
+    color: #101220;
+    background-color: rgb(30, 30, 54);
+    color: #fff;
+    border: solid #fff 1px;
+}
+.banner {
+    height: 45rem;
+    width: 100%;
+    background-color: #101220;
+}
+.banner img {
+    height: 100%;
+    width: 80%;
+}
+.containerImage1{
+    margin-top: 10rem;
+    display: flex;
+    justify-content: space-around;
+    
+}
+.message{
+    border: solid 1px #000;
+}
+.containerImage2{
+    margin-top: 10rem;
+    display: flex;
+    justify-content: space-around;
+}
+.containerImage3{
+    margin-top: 10rem;
+    background-color: #000;
+    display: flex;
+    justify-content: space-around;
+    padding: 5rem 0;
+}
+
+#post1{
+height: 35rem;
+}
+
+#post2{
+    height: 35rem;
+}
+#post3{
+    height: 35rem;
+    width: 36%;
+}
+.midiatext1 {
+padding: 5rem;
+width: 30%;
+}
+.midiatext2 {
+    padding: 5rem;
+    width: 30%;
+}
+.midiatext3 {
+height: 5rem;
+padding: 5rem;
+width: 30%;
+}
+
+.footer {
+    margin-top: 8rem;
+    display: flex;
+    justify-content: space-around;
+    background-color: #000;
+}
+
+.textInformation {
+    margin-top: 2rem;
+    height: 100px;
+    width: 100px;
+   
+}
+
+.textInformation2 {
+    margin-top: 2rem;
+    height: 100px;
+    width: 100px; 
+    position: static;   
+}
+.footertext {
+    padding: 2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #000;
+    border-top: solid 1px #fff;
+    border-bottom: solid 1px #fff;
+}
+.footertext h1 {
+    color: #fff;
+    font-size: 15px;
+}
